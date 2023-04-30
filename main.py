@@ -15,8 +15,8 @@ hapi = Hooman(WIDTH, HEIGHT)
 hapi.set_background(hapi.color['white'])
 hapi.set_caption('FBoy and WGirl')
 
-Fboy = Character(hapi, 'red', 'Fireboy_and_Watergirl-main/Images/FireBoy.png')
-Wgirl = Character(hapi, 'blue', 'Fireboy_and_Watergirl-main/Images/WaterGirl.png')
+Fboy = Character(hapi, 'red', 'Images/FireBoy.png')
+Wgirl = Character(hapi, 'blue', 'Images/WaterGirl.png')
 
 obst = [
     Platform(hapi, 0, 580, 600, 20), 
@@ -35,8 +35,8 @@ liquids = [
 ]
 
 diamonds = [
-    Collectable(hapi, 'lava', 'Fireboy_and_Watergirl-main/Images/Red_diamond.png', 100, 360),
-    Collectable(hapi, 'water', 'Fireboy_and_Watergirl-main/Images/Blue_diamond.png', 150, 360)
+    Collectable(hapi, 'lava', 'Images/Red_diamond.png', 100, 360),
+    Collectable(hapi, 'water', 'Images/Blue_diamond.png', 150, 360)
 
 ]
 
