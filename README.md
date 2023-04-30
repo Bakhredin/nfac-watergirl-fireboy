@@ -1,6 +1,8 @@
-# Fireboy_and_Watergirl
+# fire and water
 
-Made this one day at uni when i was bored. not sure what release of hooman it uses.
+перед запуском установите именно эту версию:
 
-the file with the random name is unrelated, i for some reason, wanted to make a bunch of sliders make a wave, and put the file in this folder.
+ ### `pip install hooman==0.8.0`
+
+ здесь созданы также другие файлы для развития игры, но я не успел. 
 
